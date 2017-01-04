@@ -1,0 +1,121 @@
+/* Name: Cleophas Kalekem. This is the external style sheet that I used to style my html pages. */;
+h1{color: yellow;
+	 }
+	h2{color: white;
+		background-color: indigo;
+	 }
+	body{background-color: indianred;
+		padding: 0;
+		margin-right: 100px;
+		margin-left: 20px;
+		margin-bottom: 460px;;
+		}
+	p{color: black;
+	  font-family: Book Antiqua,Lucida Grande, Arial, Helvetica, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana, sans-serif, Segoe, Segoe UI, Trebuchet MS; 
+	  font-size: 100%;
+	  text-indent: 1.5em;
+	 }
+	 td{ border: 1px solid ;
+	 	color: navy;
+		padding: 3px 7px 2px 7px;
+	   }
+	em{color: white;
+		}
+		
+	.prof {
+		background-color: orange;
+	}
+	.subj {
+		background-color: #336666; 
+	}
+	.bks {
+		background-color:#FF0066;
+		
+	}
+	
+	.pros {
+		background-color: #336666; 
+	}
+	
+	.kalekem {
+		background-color: #663300;
+	}
+	
+	i{color: white;
+	 }
+	 a{font-weight:bold;
+		font-size: 150%;
+	  }
+	a:link {color: blue;
+	       }
+	a: visited {color: aqua;
+		       }
+	a:active {color: aqua;
+			background-color: navy;
+		}
+
+	a:hover {text-decoration: none;
+			 color: white;
+			background-color: navy;
+			}
+	p:first-letter {font-size: 200%;
+				    color: orange, purple, yellow; 
+				   }
+	nav { color: green;
+		text-align: left;
+		margin-left: 0px;
+		margin-right: 50px;
+		text-indent: 6px;
+		}
+	a.smooth {transition-duration: 0.3s;
+			  }
+								   	
+	li{color: #FFCC33;}
+	 img {float: center;
+		 	}
+
+	
+	#nav {
+		background-color: orange;
+		position: fixed;
+		text-align:right;
+		color:#f6dde3;
+		font-size: 1.0em;
+		padding-bottom: 20px;
+		float: left;
+		margin-left: 0px;
+		padding-top: 10px;
+		width: 1000px;
+	}
+	
+	#nav li {
+		display: inline;
+	}
+
+	#nav a {
+		text-decoration: none;
+		font-family: Cambria, serif;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: normal;
+		letter-spacing: normal;
+		line-height: 1.3em;
+		color: #596365;
+	}
+
+	#nav a:hover {
+		text-decoration: none;
+		font-family: Cambria, serif;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: normal;
+		letter-spacing: normal;
+		line-height: 1.3em;
+		color: #000;
+	}
+		
+					 
+		
+
