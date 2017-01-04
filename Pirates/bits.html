@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Quantity of Values in Specified Bits</title>
+	<style type="text/css">
+	body{background-color: #00FFFF;
+		color: black;}
+	h2, h3{color: #0000FF;}
+</style>
+</head>
+<body>
+	<h2>Quantity of Values in Bits</h2>
+	<p>Enter the number of Bits: <input type="text" id="bitBox" size=10 value=""></p>
+	<input type="button" value="Quantity of Values"
+		onclick="numOfBits=parseFloat(document.getElementById('bitBox').value);
+		numOfValues=Math.pow(2, numOfBits);
+		document.getElementById('outputDiv').innerHTML=
+		'With '+numOfBits+ ' bits, you can represent '+numOfValues+ ' different values. ';">
+	<hr>
+	<div id="outputDiv"></div>
+</body>
+</html>

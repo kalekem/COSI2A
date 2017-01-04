@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Months To Seconds</title>
+	<style type="text/css">
+	body{background-color: #99FF33;
+		color: black;}
+	h2, h3{color: #6600CC;}
+</style>
+</head>
+<body>
+	<h2>Converts Months To Seconds!</h2>
+	<p>Enter the number of months: <input type="text" id="monthBox" size=20 value=""></p>
+	<input type="button" value="Convert Months To Seconds"
+		onclick="months=parseFloat(document.getElementById('monthBox').value);
+		seconds=months*30*24*60*60;
+		document.getElementById('outputDiv').innerHTML=
+		'Hey. '+months+ ' months is ' +seconds+ ' seconds!';">
+	<hr>
+	<div id="outputDiv"></div>
+</body>
+</html>

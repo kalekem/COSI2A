@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Pirate Translator</title>
+	<style type="text/css">
+	body{background-color: #336600;
+		color: #FFFF00;}
+	h2, h3{color: white;}
+</style>
+</head>
+<body>
+	<h2>Land Lubber's Pirate Translator</h2>
+	<p>Simply click on the buttons to translate words and/or phrases from English to pirate talk</p>
+	<input type="button" value="Hello" onclick= "document.getElementById('outputDiv').innerHTML+='ahoy ';">
+	<input type="button" value="Stranger" onclick="document.getElementById('outputDiv').innerHTML+=' scurvy dog ';">
+	<br>
+	<br>
+	<input type="button" value="Clear" onclick="document.getElementById('outputDiv').innerHTML=' ';">
+	<input type="button" value="Return" onclick="document.getElementById('outputDiv').innerHTML+='<br>';">
+	<hr>
+	<div id="outputDiv"></div>
+</body>
+</html>
